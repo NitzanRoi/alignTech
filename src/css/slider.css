@@ -1,0 +1,15 @@
+.Slider {
+    border: 1px solid rebeccapurple;
+    height: 100px;
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+}
+
+.Slider img{
+    height: 100%;
+    width: 190px;
+    display: inline-block;
+    cursor: pointer;
+}
