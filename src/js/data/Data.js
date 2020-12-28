@@ -3,7 +3,6 @@ let notUsedImages = [];
 let dataInfo = {};
 
 const initData = (callback) => {
-    // console.log("fetch data"); //todo delete
     const serverLink = "https://picsum.photos/v2/list?page=1&limit=" + fetchLimit;
     fetch(serverLink)
         .then(data => data.json())
@@ -37,8 +36,6 @@ const returnData = () => {
         });
         notUsedImages.splice(idx, 1);
     }
-    // console.log("res"); //todo test
-    // console.log(res); //todo test
     return res;
 };
 
