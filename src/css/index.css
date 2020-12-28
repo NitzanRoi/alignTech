@@ -7,3 +7,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.App {
+  padding-top: 27px;
+}
