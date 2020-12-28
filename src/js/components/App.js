@@ -43,16 +43,17 @@ const App = () => {
     };
 
     useEffect(() => {
-        if (images.length >= 100)
+        if (images.length >= 20)
             return;
-        const interval = setInterval(timer, 10000); //todo 30000
+        const interval = setInterval(timer, 10000);
         return () => clearInterval(interval);
         // eslint-disable-next-line
     }, [images]);
 
     return (
         <div className="App">
-            <Image imageObj={curImage} />
+            <Image
+                imageObj={curImage} />
             <Slider
                 imagesObj={images}
                 clickEvent={handleClick} />

@@ -1,4 +1,4 @@
-const fetchLimit = 100;
+const fetchLimit = 20;
 let notUsedImages = [];
 let dataInfo = {};
 
